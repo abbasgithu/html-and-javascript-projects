@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Abbas Tech Solns</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/images/school logo.jpg" width="80%"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+<!----- Course -------->
+
+<section class="course">
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>The School Only Offers Technical Courses.</p>
+  
+        <div class="row">
+          <div class="course-col">
+              <h3>Certficate</h3>
+              <p>Certficate in programming, Cyber security, Information technology, Computer packages. <br> For you to qualify for the courses you must have attained atleast a D+<br>Log in to our website to download the admission letter.</p>
+          </div>
+          <div class="course-col">
+              <h3>Degree</h3>
+              <p>Bachelor in programming, Cyber security, Information technology, Software Engineering & Development. <br> For you to qualify for the courses you must have attained atleast a C+ or a diploma<br>Log in to our website to download the admission letter.</p>
+          </div>
+          <div class="course-col">
+              <h3>Post Graduate</h3>
+              <p>PHD in programming, Cyber security, Information technology, Software engineering & Development. <br> For you to qualify for the courses you must have attained atleast a degree in any of the courses<br>Log in to our website to download the admission letter.</p>
+          </div>
+        </div>
+
+
+</section>
+
+
+<!------------- facilities --------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+      <p>The school offers the following to the students.</p>
+
+       <div class="row">
+        <div class="facilities-col">
+            <img src="/images/library.jpg">
+            <h3>World Class Library</h3>
+            <p>It is used for reference & Consultation.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/images/play.jpg">
+            <h3>Largest Playground</h3>
+            <p>This where the school games are held & Entertainment</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/images/dinner2.jpg">
+            <h3>Tasty and Healthy Food</h3>
+            <p>The studennts enjoy their dinner here.</p>
+        </div>
+       </div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!----- Footer -------->
+
+<section class="footer">
+     <h4>About Us</h4>
+     <p>Find us on our social medias for<br>more information</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+     </div>
+     <p>Made with <i class="fa fa-heart-o"></i>by Abbas Tech Solns</p>
+</section>
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+     }
+
+</script>
+
+</body>
+</html>
